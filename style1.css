@@ -1,0 +1,32 @@
+body {
+    font-family: 'Helvetica';
+}
+
+.profile {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    color: black;
+    font-size: 24;
+}
+
+.section {
+    color: darkslategrey;
+    font-size: 18px;
+}
+
+.items {
+    color: slategrey;
+    font-size: 12px;
+}
+
+a {
+    color: slateblue;
+}
