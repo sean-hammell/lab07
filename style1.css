@@ -1,32 +1,39 @@
+/* set the font family for the body of the document */
 body {
     font-family: 'Helvetica';
 }
 
+/* styles for the entire profile */
 .profile {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     max-width: 300px;
     text-align: center;
 }
 
+/* image size in relation to the profile */
 img {
     width: 100%;
 }
 
+/* header class style */
 .header {
     color: black;
     font-size: 24;
 }
 
+/* section class style */
 .section {
     color: darkslategrey;
     font-size: 18px;
 }
 
+/* item class style */
 .items {
     color: slategrey;
     font-size: 12px;
 }
 
+/* link style */
 a {
     color: slateblue;
 }

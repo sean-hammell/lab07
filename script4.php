@@ -1,10 +1,12 @@
 <?php
+    // create a new table when the calculate button is pressed
     if (array_key_exists('calculate', $_POST)) {
         if (isset($_POST['number'])) {
             multiplicationTable($_POST['number']);
         }
     }
 
+    // Creates an HTML multiplication table up to the given number.
     function multiplicationTable($number) {
         echo '<table>';
 

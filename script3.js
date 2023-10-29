@@ -1,3 +1,4 @@
+// Verifies that the passwords match and are at least 8 characters.
 function verify() {
     let firstPassword = document.getElementById("first");
     let secondPassword = document.getElementById("second");
